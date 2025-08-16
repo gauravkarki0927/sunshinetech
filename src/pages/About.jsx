@@ -64,7 +64,7 @@ const About = () => {
             }`}
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              About TechCore
+              About SunshineTech
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 leading-relaxed">
               We're more than just a hardware company. We're your partners in building 
@@ -88,7 +88,7 @@ const About = () => {
                 Our Mission
               </h2>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Founded in 2010, TechCore has been at the forefront of the computer hardware 
+                Founded in 2010, SunshineTech has been at the forefront of the computer hardware 
                 revolution. We started with a simple belief: everyone deserves access to 
                 high-performance computing solutions that don't break the bank.
               </p>
@@ -180,7 +180,7 @@ const About = () => {
               Meet Our Leadership Team
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The passionate leaders driving TechCore's vision and growth.
+              The passionate leaders driving SunshineTech's vision and growth.
             </p>
           </div>
 

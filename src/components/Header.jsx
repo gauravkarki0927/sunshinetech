@@ -32,13 +32,13 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img src={logo} className={`h-18 transition-colors duration-300 ${
+            <img src={logo} className={`h-12 md:h-18 transition-colors duration-300 ${
               isScrolled ? 'text-blue-600' : 'text-white'
             }`} />
-            <span className={`text-3xl font-bold transition-colors duration-300 ${
+            <span className={`text-2xl md:text-3xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              Sunshine
+              SunshineTech
             </span>
           </Link>
 
@@ -74,7 +74,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg border-t">
+          <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-lg">
             <nav className="py-4">
               {navItems.map((item) => (
                 <Link

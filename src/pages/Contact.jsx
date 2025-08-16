@@ -27,19 +27,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+1 (555) 123-4567", "+1 (555) 123-4568", "Toll-free: 1-800-TECHCORE"],
+      details: ["+1 (555) 123-4567", "+1 (555) 123-4568", "Toll-free: 1-800-SUNSHINETECH"],
       color: "text-green-600"
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: ["info@techcore.com", "support@techcore.com", "sales@techcore.com"],
+      details: ["info@sunshinetech.com", "support@sunshinetech.com", "sales@sunshinetech.com"],
       color: "text-purple-600"
     },
     {
       icon: Clock,
       title: "Business Hours",
-      details: ["Mon-Fri: 9:00 AM - 6:00 PM", "Saturday: 10:00 AM - 4:00 PM", "Sunday: Closed"],
+      details: ["Sun-Thu: 10:00 AM - 6:00 PM", "Friday: 10:00 AM - 4:00 PM", "Saturday: Closed"],
       color: "text-orange-600"
     }
   ];
@@ -321,7 +321,7 @@ const Contact = () => {
                     allowFullScreen=""
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="TechCore Location"
+                    title="SunshineTech Location"
                     className="w-full h-full"
                   />
                   

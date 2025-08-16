@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Cpu, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import logo from '../images/logo.png'
 
 const Footer = () => {
   return (
@@ -10,11 +11,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <Cpu className="h-8 w-8 text-blue-400" />
-              <span className="text-xl font-bold">TechCore</span>
+              <img src={logo} className="h-8" />             
+                <span className="text-xl font-bold">SunshineTech</span>
             </div>
             <p className="text-gray-300 leading-relaxed">
-              Your trusted partner for high-performance computer hardware and components. 
+              Your trusted partner for high-performance computer hardware and components.
               Building the future of computing, one component at a time.
             </p>
             <div className="flex space-x-4">
@@ -88,7 +89,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3 text-gray-300">
                 <Mail className="h-5 w-5 text-blue-400 flex-shrink-0" />
-                <span>info@techcore.com</span>
+                <span>info@sunshinetech.com</span>
               </div>
             </div>
           </div>
@@ -97,8 +98,8 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 text-center">
           <p className="text-gray-400">
-            © 2025 TechCore Hardware Solutions. All rights reserved. | 
-            <a href="#" className="hover:text-white transition-colors duration-200 ml-1">Privacy Policy</a> | 
+            © 2025 SunshineTech Hardware Solutions. All rights reserved. |
+            <a href="#" className="hover:text-white transition-colors duration-200 ml-1">Privacy Policy</a> |
             <a href="#" className="hover:text-white transition-colors duration-200 ml-1">Terms of Service</a>
           </p>
         </div>

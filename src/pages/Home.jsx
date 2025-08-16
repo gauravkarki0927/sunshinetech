@@ -80,13 +80,13 @@ const Home = () => {
     {
       name: "Sarah Johnson",
       role: "Gaming Enthusiast",
-      content: "TechCore helped me build the perfect gaming rig. Their expert advice and quality components exceeded my expectations!",
+      content: "SunshineTech helped me build the perfect gaming rig. Their expert advice and quality components exceeded my expectations!",
       rating: 5
     },
     {
       name: "Mike Chen",
       role: "IT Manager",
-      content: "Outstanding service and reliability. We've been sourcing enterprise hardware from TechCore for 3 years now.",
+      content: "Outstanding service and reliability. We've been sourcing enterprise hardware from SunshineTech for 3 years now.",
       rating: 5
     },
     {
@@ -159,7 +159,7 @@ const Home = () => {
             }`}
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              Why Choose TechCore?
+              Why Choose SunshineTech?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We provide premium hardware solutions with unmatched quality, 
@@ -230,7 +230,7 @@ const Home = () => {
               What Our Customers Say
             </h2>
             <p className="text-xl text-gray-600">
-              Real feedback from real customers who trust TechCore.
+              Real feedback from real customers who trust SunshineTech.
             </p>
           </div>
 
@@ -272,7 +272,7 @@ const Home = () => {
             Ready to Upgrade Your Tech?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Join thousands of satisfied customers who've transformed their computing experience with TechCore.
+            Join thousands of satisfied customers who've transformed their computing experience with SunshineTech.
           </p>
           <Link 
             to="/contact" 
