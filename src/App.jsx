@@ -7,10 +7,12 @@ import About from './pages/About';
 import Products from './pages/Products';
 import Contact from './pages/Contact';
 import ProductDetails from './pages/ProductDetails';
+import ScrollToTop from './scroller/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-transparent">
         <Header />
         <main>
